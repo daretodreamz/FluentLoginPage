@@ -18,5 +18,10 @@ namespace FluentLoginPage
             LoginPage.GoTo();
             LoginPage.LoginAs("admin").WithPassword("password").Login();
         }
+
+        public void Admin_User_Can_Logout()
+        {
+            Pages.LogoutPage.Logout();
+        }
     }
 }

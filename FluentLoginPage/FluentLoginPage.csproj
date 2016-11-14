@@ -50,6 +50,8 @@
     <Compile Include="Driver.cs" />
     <Compile Include="LoginPage.cs" />
     <Compile Include="LoginTest.cs" />
+    <Compile Include="LogoutPage.cs" />
+    <Compile Include="Pages.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
